@@ -3,6 +3,7 @@ from kivy.app import App
 class Estudo1App(App):
     pass
 
-janela=Estudo1App()
+janela = Estudo1App()
 
-janela.run()
+if __name__ == '__main__':
+    janela.run()
